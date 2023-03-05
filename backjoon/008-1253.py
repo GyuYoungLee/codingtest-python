@@ -12,6 +12,7 @@ for k in range(n):
     i = 0
     j = n - 1
 
+    # 투 포인터 알고리즘
     while i < j:
         if A[i] + A[j] > A[k]:
             j -= 1

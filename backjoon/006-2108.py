@@ -7,6 +7,7 @@ end = 1
 total = 1
 count = 1
 
+# 투 포인터 알고리즘
 while end != n:
     if total < n:
         end += 1
