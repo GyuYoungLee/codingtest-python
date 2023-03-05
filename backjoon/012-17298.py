@@ -1,7 +1,7 @@
-N = 4
-A = [9, 5, 4, 8]
-answer = [0, 0, 0, 0]
+N = int(input())
+A = list(map(int, input().split()))
 
+answer = [0] * N
 st = []
 
 for i in range(N):
