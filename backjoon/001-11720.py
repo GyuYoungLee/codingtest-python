@@ -1,3 +1,5 @@
+# 합 구하기
+
 n = input()
 numbers = list(input())
 

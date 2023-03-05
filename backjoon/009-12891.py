@@ -1,3 +1,5 @@
+# DNA 비밀번호 (슬라이딩 윈도우)
+
 def myadd(c):
     global checkArr, myArr, checkSecret
     if c == 'A':
@@ -60,8 +62,8 @@ if checkSecret == 4:
 
 # 슬라이딩
 for i in range(P, S):
-    myadd(A[i])
-    myremove(A[i - P])
+    myadd(A[i])  # 뒤쪽에 새로운 값 추가
+    myremove(A[i - P])  # 앞쪽에 기존 값 제거
 
     if checkSecret == 4:
         count += 1

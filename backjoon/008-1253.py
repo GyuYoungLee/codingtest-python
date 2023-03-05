@@ -1,3 +1,5 @@
+# 좋은 수 구하기 (투포인터)
+
 n = int(input())
 A = list(map(int, input().split()))
 

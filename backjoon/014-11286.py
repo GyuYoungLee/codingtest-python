@@ -1,17 +1,19 @@
+# 절대값 힙 구현하기 (우선순위큐)
+
 from queue import PriorityQueue
 from sys import stdin, stdout
 
 N = int(input())
-qu = PriorityQueue()
+pqu = PriorityQueue()
 
 for i in range(N):
     request = int(stdin.readline())
 
     if request == 0:
-        if qu.empty():
+        if pqu.empty():
             stdout.write('0\n')
         else:
-            abs_v, v = qu.get()
+            abs_v, v = pqu.get()
             stdout.write(str(v) + '\n')
     else:
-        qu.put((abs(request), request))
+        pqu.put((abs(request), request))  # (1차기준, 2차기준)

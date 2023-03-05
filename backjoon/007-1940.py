@@ -1,3 +1,5 @@
+# 주몽의 명령 (투포인터)
+
 n = int(input())
 m = int(input())
 

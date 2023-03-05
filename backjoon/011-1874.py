@@ -1,3 +1,5 @@
+# 스택으로 새로운 수 만들기 (스택)
+
 import sys
 
 N = int(input())
